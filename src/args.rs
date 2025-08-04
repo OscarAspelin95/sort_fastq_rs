@@ -6,7 +6,7 @@ pub struct Args {
     #[arg(short, long, help = "Path to .fastq.gz file.")]
     pub fastq: PathBuf,
 
-    #[arg(short, long, help = "Output file (gzipped fastq).")]
+    #[arg(short, long, default_value = "sorted.fastq", help = "Output file.")]
     pub outfile: PathBuf,
 
     #[arg(short, long, default_value_t = 15, help = "Minimizer kmer size.")]
