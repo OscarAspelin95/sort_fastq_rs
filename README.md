@@ -1,3 +1,5 @@
+⚠️ Depreciated since it is now part of [fastq_rs](https://github.com/OscarAspelin95/fastq_rs).
+
 # sort_fastq_rs
 🚧 Work in progress sort fastq file based on the number of low error rate canonical minimizers. Inspired by [isONClust3](https://github.com/aljpetri/isONclust3).
 
